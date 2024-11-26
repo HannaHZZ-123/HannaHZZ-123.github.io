@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Jingyi Long's Personal Page
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Jingyi Long
 language: en
-timezone: ''
+timezone: 'America/Denver'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://HannaHZZ-123.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,6 +97,20 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: Academia
+theme_config:
+  menu:
+    About: /#About
+    Publications: /#Publications
+    Projects: /#Projects
+    Blog: /fuck
+  social:
+    enable: false
+  e_social:
+    enable: false
+  cv_dl:
+    enable: true
+    dir: /attaches/Jingyi_Long_CV.pdf
+    description: CV
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
