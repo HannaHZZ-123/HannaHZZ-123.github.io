@@ -1,6 +1,6 @@
-favicon: /img/favicon.png
+favicon: /images/favicon.png
 # Change to your profile picture
-avatar: /img/avatar.jpg
+avatar: /images/favicon.png
 # if author sets in hexo_config, this string doesn't work
 # author: 'Jingyi Long'
 author_bio: 'Programmer. Math enthusiast.'
@@ -14,6 +14,7 @@ menu:
   About: /#About
   Publications: /#Publications
   Projects: /#Projects
+  Teachings: /#Teachings
 
 # flink picture will load if avator link calls on error
 loading_bg:
@@ -26,6 +27,7 @@ social:
   enable: true
 social_links:
   fab fa-github: https://github.com/HansLjy
+  fab fa-linkedin: https://www.linkedin.com/in/jingyi-long-b2b9a4240/
 
 # Additional social_links，额外添加自定义链接，可显示链接名称
 # name: url || icon_name
@@ -44,7 +46,7 @@ cv_dl:
 # Box-shadow
 # display box-shadow on page or not
 box_shadow:
-  enable: true
+  enable: false
 
 # CDN
 # 根据需要自行添加js/css

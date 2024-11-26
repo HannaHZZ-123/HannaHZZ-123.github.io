@@ -1,0 +1,33 @@
+.image-text-container {
+	display: flex;
+	flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+	align-items: center;
+	margin: 20px 0;
+}
+
+.image-text-image {
+	width: 100%;
+	max-width: 30%; /* Restrict the width for larger screens */
+	margin: 0 auto 20px; /* Space below the image on mobile */
+}
+
+.image-text-content {
+	flex: 1;
+	width: 100%;
+}
+
+/* For larger screens */
+@media (min-width: 768px) {
+	.image-text-container {
+		flex-wrap: nowrap; /* Prevent wrapping on larger screens */
+	}
+
+	.image-text-image {
+		width: 50%; /* Adjust image width for PC users */
+		margin: 0 20px 0 0; /* Space to the right of the image */
+	}
+
+	.image-text-content {
+		width: auto; /* Allow the text to flow naturally */
+	}
+}
