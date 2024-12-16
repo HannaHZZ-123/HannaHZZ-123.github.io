@@ -8,7 +8,7 @@ academia: true
 # Publications
 
 
-### [Efficient GPU Cloth Simulation with Non-distance Barriers and Subspace Reuse](https://arxiv.org/abs/2403.19272)
+### [Efficient GPU Cloth Simulation with Non-distance Barriers and Subspace Reuse](https://dl.acm.org/doi/10.1145/3687760)
 
 <div style="text-align: center;">
   <img src="/images/publications/mil2.png" alt="Mil-Mil" style="width: 90%;">
